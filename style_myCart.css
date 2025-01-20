@@ -111,9 +111,9 @@ body{
         width: 100%;
         display: none;
         position: absolute;
-        top: 103px;
+        top: 71px;
         right: 0;
-        left: -10px;
+        left: 0px;
         background-color: #f4daaa;
         width: 100%;
         text-align: center;
@@ -149,9 +149,9 @@ body{
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 103px;
+        top: 71px;
         right: 0;
-        left: -10px;
+        left: 0px;
         background-color: #f4daaa;
         text-align: center;
         padding: 10px 0;
@@ -177,8 +177,762 @@ body{
         display: flex;
     }
 }
-/*-----------*/
 
+
+/*-----------*/
+@media (min-width: 1200px){
+    .content_top{
+        width: auto;
+        margin: 10px;
+    }
+    span{
+        color: red;
+    }
+
+    .form_inf>form{
+        margin: 5px;
+    }
+
+    .form_inf>form>div>label{
+        margin: 5px 5px;
+        color: gray;
+    }
+
+    .form_inf>form>div>input{
+        outline: none;
+        padding: 5px 10px;    
+        width: 450px; 
+        margin: 5px;
+    }
+
+    .form{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    .form_inf{
+        border-right: 1px solid black;
+    }
+
+    .form_bank>form>div{
+        margin: 10px;
+        color: gray;
+    }
+
+    .h{
+        border: 1px solid gray;
+        padding: 10px 5px;
+        width: 450px;
+        margin: 10px;
+        color: gray;
+    }
+
+    .content_button>h3{
+        margin: 10px;
+    }
+
+    form>input{
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        background-color: #8ba7cd;
+        outline: none;
+        border: 1px solid #237efe;
+        border-radius: 5px;
+    }
+
+    .container{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .left{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .left-right{
+        margin-left: 5px;
+    }
+
+    .left_image{
+        width: 100px;
+        height: 80px;
+        border: 1px solid #db8efa;
+        background-color: #e2d5e7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .left-button{
+        display: flex;
+    }
+
+    .left-button>div{
+        background-color: #8ba7cd;
+        margin-top: 5px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    .right-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .total{
+        display: flex;
+        justify-content: space-between;
+        width: 50px;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    
+    .remove{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #e2d5e7;
+        border: 1px solid #db8efa;
+        border-radius: 5px;
+        margin-left: 15px;
+    }
+
+    .right-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-button>p{
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .content_top{
+        width: auto;
+        margin: 10px;
+    }
+    span{
+        color: red;
+    }
+
+    .form_inf>form{
+        margin: 5px;
+    }
+
+    .form_inf>form>div>label{
+        margin: 5px 5px;
+        color: gray;
+    }
+
+    .form_inf>form>div>input{
+        outline: none;
+        padding: 5px 10px;    
+        width: 450px; 
+        margin: 5px;
+    }
+
+    .form{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    .form_inf{
+        border-right: 1px solid black;
+    }
+
+    .form_bank>form>div{
+        margin: 10px;
+        color: gray;
+    }
+
+    .h{
+        border: 1px solid gray;
+        padding: 10px 5px;
+        width: 450px;
+        margin: 10px;
+        color: gray;
+    }
+
+    .content_button>h3{
+        margin: 10px;
+    }
+
+    form>input{
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        background-color: #8ba7cd;
+        outline: none;
+        border: 1px solid #237efe;
+        border-radius: 5px;
+    }
+
+    .container{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .left{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .left-right{
+        margin-left: 5px;
+    }
+
+    .left_image{
+        width: 100px;
+        height: 80px;
+        border: 1px solid #db8efa;
+        background-color: #e2d5e7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .left-button{
+        display: flex;
+    }
+
+    .left-button>div{
+        background-color: #8ba7cd;
+        margin-top: 5px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    .right-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .total{
+        display: flex;
+        justify-content: space-between;
+        width: 50px;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    
+    .remove{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #e2d5e7;
+        border: 1px solid #db8efa;
+        border-radius: 5px;
+        margin-left: 15px;
+    }
+
+    .right-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-button>p{
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .content_top{
+        width: auto;
+        margin: 10px;
+    }
+    span{
+        color: red;
+    }
+
+    .form_inf>form{
+        margin: 5px;
+    }
+
+    .form_inf>form>div>label{
+        margin: 5px 5px;
+        color: gray;
+    }
+
+    .form_inf>form>div>input{
+        outline: none;
+        padding: 5px 10px;    
+        width: 350px; 
+        margin: 5px;
+    }
+
+    .form{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    .form_inf{
+        border-right: 1px solid black;
+    }
+
+    .form_bank>form>div{
+        margin: 10px;
+        color: gray;
+    }
+
+    .h{
+        border: 1px solid gray;
+        padding: 10px 5px;
+        width: 350px;
+        margin: 10px;
+        color: gray;
+    }
+
+    .content_button>h3{
+        margin: 10px;
+    }
+
+    form>input{
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        background-color: #8ba7cd;
+        outline: none;
+        border: 1px solid #237efe;
+        border-radius: 5px;
+    }
+
+    .container{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .left{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .left-right{
+        margin-left: 5px;
+    }
+
+    .left_image{
+        width: 100px;
+        height: 80px;
+        border: 1px solid #db8efa;
+        background-color: #e2d5e7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .left-button{
+        display: flex;
+    }
+
+    .left-button>div{
+        background-color: #8ba7cd;
+        margin-top: 5px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    .right-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .total{
+        display: flex;
+        justify-content: space-between;
+        width: 50px;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    
+    .remove{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #e2d5e7;
+        border: 1px solid #db8efa;
+        border-radius: 5px;
+        margin-left: 15px;
+    }
+
+    .right-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-button>p{
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .content_top{
+        width: auto;
+        margin: 10px;
+    }
+    span{
+        color: red;
+    }
+
+    .form_inf>form{
+        margin: 5px;
+    }
+
+    .form_inf>form>div>label{
+        margin: 5px 5px;
+        color: gray;
+    }
+
+    .form_inf>form>div>input{
+        outline: none;
+        padding: 5px 10px;    
+        width: 500px; 
+        margin: 5px;
+    }
+
+    .form{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    .form_inf{
+        border-bottom: 1px solid black;
+    }
+
+    .form_bank>form>div{
+        margin: 10px;
+        color: gray;
+    }
+
+    .h{
+        border: 1px solid gray;
+        padding: 5px 10px;
+        width: 500px;
+        margin: 10px;
+        color: gray;
+    }
+
+    .content_button>h3{
+        margin: 10px;
+    }
+
+    form>input{
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        background-color: #8ba7cd;
+        outline: none;
+        border: 1px solid #237efe;
+        border-radius: 5px;
+    }
+
+    .container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .left{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .left-right{
+        margin-left: 5px;
+    }
+
+    .left_image{
+        width: 100px;
+        height: 80px;
+        border: 1px solid #db8efa;
+        background-color: #e2d5e7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .left-button{
+        display: flex;
+    }
+
+    .left-button>div{
+        background-color: #8ba7cd;
+        margin-top: 5px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    .right-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .total{
+        display: flex;
+        justify-content: space-between;
+        width: 50px;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    
+    .remove{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #e2d5e7;
+        border: 1px solid #db8efa;
+        border-radius: 5px;
+        margin-left: 15px;
+    }
+
+    .right-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-button>p{
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 576px){
+    .content_top{
+        width: auto;
+        margin: 10px;
+    }
+    span{
+        color: red;
+    }
+
+    .form_inf>form{
+        margin: 5px;
+    }
+
+    .form_inf>form>div>label{
+        margin: 5px 5px;
+        color: gray;
+    }
+
+    .form_inf>form>div>input{
+        outline: none;
+        padding: 5px 10px;    
+        width: 300px; 
+        margin: 5px;
+    }
+
+    .form{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+    }
+
+    .form_inf{
+        border-bottom: 1px solid black;
+    }
+
+    .form_bank>form>div{
+        margin: 10px;
+        color: gray;
+    }
+
+    .h{
+        border: 1px solid gray;
+        padding: 5px 10px;
+        width: 300px;
+        margin: 10px;
+        color: gray;
+    }
+
+    .content_button>h3{
+        margin: 10px;
+    }
+
+    form>input{
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        background-color: #8ba7cd;
+        outline: none;
+        border: 1px solid #237efe;
+        border-radius: 5px;
+    }
+
+    .container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .left{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .left-right{
+        margin-left: 5px;
+    }
+
+    .left_image{
+        width: 100px;
+        height: 80px;
+        border: 1px solid #db8efa;
+        background-color: #e2d5e7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .left-button{
+        display: flex;
+    }
+
+    .left-button>div{
+        background-color: #8ba7cd;
+        margin-top: 5px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    .right-top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .total{
+        display: flex;
+        justify-content: space-between;
+        width: 50px;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    
+    .remove{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #e2d5e7;
+        border: 1px solid #db8efa;
+        border-radius: 5px;
+        margin-left: 15px;
+    }
+
+    .right-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-button>p{
+        font-weight: bold;
+    }
+
+}
 
 
 /*---FOOTER---*/
