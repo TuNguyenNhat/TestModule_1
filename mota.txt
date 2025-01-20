@@ -1,0 +1,3 @@
+- Trang index hien thi danh sach sp
+- ta co the nhan vao hinh anh sp de hien thi chi tiet san pham
+- nhan vao My cart de hien thi trang gia hang
